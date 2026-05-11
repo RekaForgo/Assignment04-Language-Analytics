@@ -1,0 +1,715 @@
+=== Run config ===
+n_topics=50 | encoder=paraphrase-MiniLM-L3-v2 | top_n=15
+min_df=5 | max_df=0.5 | seed=42
+classify=True | downsample=False
+Log saved to: /work/RekaForgo#8658/assignment4/out/run_n50.log
+
+Removed 1 duplicate documents (400 remaining)
+Label distribution:
+gold_consensus
+0    207
+1    193
+Name: count, dtype: int64
+
+No device provided, using cpu
+Loading SentenceTransformer model from sentence-transformers/paraphrase-MiniLM-L3-v2.
+
+--- Topics (top words) ---
+Topic 0: game, games, world, pc, enemies, playing, incredible, computer, teams, build
+Topic 1: he, his, him, who, guy, himself, dad, think, father, smart
+Topic 2: job, work, career, company, pay, jobs, companies, advice, working, manager
+Topic 3: episode, episodes, show, seasons, series, watch, watched, better, fun, bad
+Topic 4: car, cars, engine, back, long, moving, used, outside, flat, past
+Topic 5: movies, bad, movie, terrible, angry, evil, seemed, problems, acting, worse
+Topic 6: saying, said, say, think, should, would, argument, isn, quote, then
+Topic 7: gas, driving, drive, engine, reddit, car, rear, energy, fuel, systems
+Topic 8: watch, buy, sold, bought, store, shopping, sell, around, seen, price
+Topic 9: did, were, band, music, had, show, took, performed, their, them
+Topic 10: make, making, something, developers, business, software, how, design, project, parts
+Topic 11: apartment, room, home, area, sleep, house, place, where, bed, living
+Topic 12: play, playing, player, players, team, played, should, league, goals, advantage
+Topic 13: dog, dogs, away, cats, park, animal, mother, walked, owner, little
+Topic 14: sound, music, audio, noise, sounds, plug, hear, quality, amp, feedback
+Topic 15: phone, mobile, laptop, buying, dad, purchased, bought, didn, android, screen
+Topic 16: college, school, clubs, university, club, team, sports, summer, graduated, join
+Topic 17: we, our, us, places, dating, trip, poor, wedding, win, because
+Topic 18: god, believe, gods, bible, existence, theory, true, prove, universe, concept
+Topic 19: eating, weight, eat, lbs, food, fat, don, foods, body, drink
+Topic 20: day, guy, weekend, good, shit, damn, out, dude, interesting, anyone
+Topic 21: jokes, funny, laugh, joke, social, off, people, shows, friends, audience
+Topic 22: someone, being, person, people, guy, seeing, letting, rock, society, public
+Topic 23: price, much, cost, cheaper, buying, pay, prices, enough, ebay, 50
+Topic 24: going, go, road, after, moving, will, gt, way, problem, over
+Topic 25: government, why, interests, support, such, spending, instead, boom, war, power
+Topic 26: book, books, writing, write, written, read, character, reading, star, story
+Topic 27: minutes, slow, seconds, fast, hours, time, speed, night, game, hour
+Topic 28: bike, mountain, ride, down, back, off, road, hurt, accident, stop
+Topic 29: magic, fire, world, air, science, real, control, fuel, sense, extremely
+Topic 30: gun, wanted, case, subreddit, state, crazy, posting, let, section, should
+Topic 31: sell, companies, selling, trading, account, trust, buying, products, idea, company
+Topic 32: movement, people, march, think, see, about, more, san, media, walk
+Topic 33: shot, shooting, film, space, area, private, experience, minutes, setting, project
+Topic 34: student, career, degree, masters, engineering, education, school, course, years, senior
+Topic 35: care, hospital, treatment, medical, doctor, mentally, your, do, because, decisions
+Topic 36: google, amazon, facebook, billion, worth, profit, teams, team, 100, internet
+Topic 37: went, smoking, took, out, hit, swing, came, bar, caught, buddy
+Topic 38: she, her, dating, friend, sister, mom, having, happy, wife, teacher
+Topic 39: deck, cards, has, end, game, turn, saw, anyway, playing, used
+Topic 40: 000, number, population, numbers, days, until, 12, day, rate, out
+Topic 41: battery, charge, power, buy, expensive, speed, 50, charged, card, fuel
+Topic 42: network, pc, connect, internet, software, cables, issue, laptop, help, service
+Topic 43: laws, law, training, act, police, office, state, speaking, rights, right
+Topic 44: size, pretty, tight, don, fit, comfortable, extra, enough, your, mine
+Topic 45: app, apps, android, users, update, developers, issues, tried, user, google
+Topic 46: had, didn, happened, wasn, weird, did, normal, saw, myself, bad
+Topic 47: style, beer, your, favorite, good, advice, hey, love, suggest, kind
+Topic 48: living, life, experiences, myself, travel, social, live, house, focus, stress
+Topic 49: dangerous, think, accident, around, should, things, rage, happened, feeling, seem
+
+--- Top 2 documents for Topic 0 ---
+
+[1] (score=0.126)
+I've been playing games for a long time. I've seen some expansive worlds. I remember having my teenage world rocked by the size of San Andreas. I remember being blown away by the size of Hyrule Field. I remember being bowled over by Skyrim and Just Cause 2.
+
+But Xenoblade is something else. This game doesn't give a fuck. It didn't give a fuck that it was on the Wii, and it doesn't give a fuck that...
+
+[2] (score=0.125)
+As a game programmer, I disagree wholeheartedly with this statement. Were it not for the 'extra hour' of optimising I and my fellows actually -do- put in to making our products faster and better, a great many of the entertainment products that keep a great many people happy would not even be remotely playable.
+
+When the computer has to put multiple millions of polygons on a screen, light and shado...
+
+--- Top 2 documents for Topic 1 ---
+
+[1] (score=0.409)
+there are (in my mind) two options for who peter quills dad is. Much evidence point to yondou (not sure of spelling) but some things threw me off. His outright willing to kill who might his own son and his overall dickish attitude. him stating at the end that their mission was to bring pq to his father and calling pqs father a jackass could point to yondou being his father or not if he wasnt talki...
+
+[2] (score=0.390)
+My friend is 33. He's a smart guy, stable, holds an excellent job, manages his health and finances well, and for the most part, he's not *completely* gullible or suggestible. He does exhibit a bit of a top-down view of things and he comes from a healthy family, with the unfortunate influence of a wacky mother--constantly ranting about conspiracy and "aliens on the moon"--most of which he's learned...
+
+--- Top 2 documents for Topic 2 ---
+
+[1] (score=0.224)
+Hello Reddit. 
+
+I am a college senior and will be graduating in August. It is time for me to enter the job search which in of itself is a scary proposition but I digress. The university I attend (Penn State) has offered numerous career fairs and such for people in my major (Information Systems and Technologies) to try and land a job. Ideally I want to work in the field of IT Consulting but at this...
+
+[2] (score=0.199)
+So, I'll be graduating with a BS in ME next month and have a job lined up at a company where I interned last summer.  I accepted the offer because I want to have work guaranteed after I'm finished with school, but its a job that I really, REALLY don't want.  The more I think about it the less I want to work there.  I plan on looking for work elsewhere in the very near future, but am in a bit of a ...
+
+--- Top 2 documents for Topic 3 ---
+
+[1] (score=0.332)
+I can't describe breaking bad to someone who hasn't watched it. It is so amazing and brilliant in every way and I imagine most people on this subreddit feel the same. As the seasons went on it just got better and better. Now it's over I have formulated a plan to lessen the pain of no more brba. I have decided that once a year I will find a weekend or a spare two days, in which I will watch every b...
+
+[2] (score=0.314)
+I can't say I like Smith's era more than Tennant's. Moffat was a writer on the show long before he took over, and wrote some of my favorite episodes like the Girl in the Fireplace. But personally I think he's much better writing one offs like that. His plots are beautifully devised and intricate and have satisfying conclusions, but I think they work better in short bursts, such as individual episo...
+
+--- Top 2 documents for Topic 4 ---
+
+[1] (score=0.136)
+So my usual [manual transmission] car for the past six months has one of those handy [auto-hold electronic brakes](  If you press the brake when or until the car stops moving, it holds you there until you accelerate away again.
+
+This week the car's been in the bodyshop after someone hit it while parked at my flat, and I've got a Fiesta to use instead.  Great, I used to have one, it feels familiar....
+
+[2] (score=0.078)
+Yea car companies wouldn't push their engineers to make more fuel efficient cars then their competitors. Infact there is only one car company, and they don't have teams working to produce better cars.
+
+Multinational car corporations simply aren't that competitive really. They just chill and wait for F1 to produce something for them to retrofit to regular cars.
+
+You should keep getting your facts f...
+
+--- Top 2 documents for Topic 5 ---
+
+[1] (score=0.193)
+I really like your interpretation. That said, I honestly don't have any problems with the actual events and plot of the prequel movies. I actually really like WHAT happened. What I didn't like is the parts they chose to focus and expound upon, and also how quickly some things were rushed (Anakin's turn to the darkside in particular, he went from kinda rash, assholish good guy to personification of...
+
+[2] (score=0.098)
+The movies is just the first four episodes edited together, and it's pretty terrible. Honestly, the show itself is written for children and pretty much abandons the concept that Star Wars canon storytelling should be aimed at all ages and be good storytelling rather than targeted and aimed at merchandising. A lot of the writing is lazy, the same characters show up constantly despite the completely...
+
+--- Top 2 documents for Topic 6 ---
+
+[1] (score=0.195)
+I think you have a point.  That said, I'm willing to suspend my disbelief because I've had this pointed out to me with movies before: it isn't whether it makes sense to you.  It's whether it makes sense to the character and how they think.
+
+It's a post apocalyptic world where civilization is gone.  There is no order or morality, only survival. There is a saying: "It is better to be at the right ha...
+
+[2] (score=0.161)
+As I assume this was related in part to my comment, I'd like to dissect this argument a little bit.  (And yes, I've gone back and forth with Brian on this before, it ended about as well as this has). 
+
+1.  **Brian is rewording the quote.**  He's saying "No man can be saved" in the celestial kingdom.  This is a strawman.  It's not the argument.  **Brigham said no man could become a God** in the cel...
+
+--- Top 2 documents for Topic 7 ---
+
+[1] (score=0.474)
+Just to lend an opinion of an electric car owner (Chevy Volt)
+
+I am excited to see the Tesla in the news, regardless of of what kind of publicity it is. The fact is, it is an incredible piece of engineering, and I would love to have one soon. It would scare me a bit not to have the gas engine as a cushion, but I think a Volt is good training for a different way of driving. 
+
+Yes, I am hobbled by t...
+
+[2] (score=0.435)
+I have spent the last 4 days scouring used car dealerships online, and I am completely overwhelmed. Then it hit me - Why not try asking reddit? I figured it was worth a shot.
+
+
+Right now I drive a Ford Taurus station wagon, circa 2000 with 160,000+ miles. The insides are rusting out, and it is time to move on. Rest in peace, my little (big) car.
+
+New (Used) Car Needs:
+
+* Safety ratings need to be ...
+
+--- Top 2 documents for Topic 8 ---
+
+[1] (score=0.301)
+Whoa you're wrist is just a bit larger than mine. You can find one in like new condition on WUS for around $90, I've seen 3 sold in the last two weeks. [Most recent one here] ( I didn't realize it at first but I quickly learned that if you're shopping for a quality watch on a budget...go to Watchuseek's private sellers forums. People there take good care of their watches and generally speaking if ...
+
+[2] (score=0.269)
+All watches from online retailers.  There is no guarantee that a watch is brand new.  
+
+If you have a jewelry business.  You can buy a watch from a consumer that's near mint condition and sell it to any watch retailer.  It just needs to be a popular model.  So any of you knuckles that want to sell a mint condition watch.  Call up a online retailer.  If it's pristine condition enough.  They'll prob...
+
+--- Top 2 documents for Topic 9 ---
+
+[1] (score=0.158)
+If you haven't done so already, of course.
+
+My girl had tickets to 112 and Blackstreet last night and they put on a great show. It was incredibly turnt up, much more than I'd expect for a relatively slow tempo genre.
+
+112 went first and held their own, basically going through their timeline and doing a few classics that had influenced their music. Dudes also performed some Biggie classics, but of ...
+
+[2] (score=0.055)
+As I said, just because they list his name does NOT mean he actually did any work on it. It's called "ghost writing" 
+
+And he definitely does not seem capable of writing a song by himself. Thus, not a musical genius. To go back to the Mozart reference, how often do you think Mozart used a co-writer?
+
+Did you know that the band Hanson, at the time pre-teen and teenager boys, wrote their music thems...
+
+--- Top 2 documents for Topic 10 ---
+
+[1] (score=0.123)
+I have my project of **"Rectrable Roof"** going on and after making all the truss and beam design in **Inventor 2012**, I was stuck on making a sheet like material in Inventor that would make the "actual" roof. A sheeting material that would be flexible like a bedsheet or something, for eg, the one they have used on the outer faces of Allianz Arena, Munich or the Water Cube, Beijing.
+
+But after a ...
+
+[2] (score=0.084)
+As a developer I'd like to clear something up; unless its an indie studio we basically have no say on what we make. If the 'business' people (wannabe wolfs of wallstreet w.w.w.) say do it we do it with the tools given to us by the device manufacturers and limitations put in place by everybody but us. I've long stopped making games but thats how it is basically.
+
+Now on the other hand theres studio...
+
+--- Top 2 documents for Topic 11 ---
+
+[1] (score=0.276)
+Hello! 
+
+I'm currently renting a one bedroom basement suite in a new house. It's ground level, includes laundry twice a week, and utilities. It's in the playland area. It's a decent location.
+
+The landlords are ok... they are very green so they have been going through my trash and removing any missed recyclables... they've told me to be more careful in future or they will go through my trash again...
+
+[2] (score=0.197)
+Hi there!
+
+I am moving to Seattle in August and need a place to live... Unfortunately I have to leave the country for July, and it looks like I only have this week to travel to Seattle and settle on an apartment for August and beyond.
+
+I have been doing a lot of online research but a lot of listings on Craig's List around the area I want to live in seem to be apartment complexes, and most of them ...
+
+--- Top 2 documents for Topic 12 ---
+
+[1] (score=0.095)
+**Sahin**: I disagree on the point that he's a "developing player". This lad was the best player in the Bundesliga two seasons ago, better than Kagawa - you won't see Man United fans saying that Kagawa is 'developing'. He's not he finished product, of course, but Sahin is much further along his development than Henderson, despite them being of similar ages - and his age is a bonus, not a factor ag...
+
+[2] (score=0.083)
+Ok, so I thought of this in response to the kingmaking discussion [here]( but I thought it warranted it's own discussion. What do you guys think of game mechanics that try to hide the score from you?
+
+I'm thinking of games like Small World, Dominion, Agricola, etc. Many, many games seem to have this feature and I find it ruining my experience time and again.
+
+The main problem seems to be that as w...
+
+--- Top 2 documents for Topic 13 ---
+
+[1] (score=0.107)
+This will be a long post, so bear with me.
+
+Bit of background: My brother has a few... issues. When our family dog passed away (7 years ago), he rushed out immediately to get a new puppy (we'll call her H- a female Lhasa apso X poodle) from a pet shop which he claimed was for my mother (who isn't that big on looking after dogs). Initially everything was OK, she didn't get the greatest care but she...
+
+[2] (score=0.102)
+The title pretty much sums it up. My partner and I took our dog for a walk at our neighborhood park- not a dog park, just a park. We specifically went today, because Tue, Wed, and Thu are off-leash days. Our dog had a bad experience last time on off-leash day because three dogs ran straight for her and circled around her, non-aggressively but she was still very shocked and scared so we hadn't gone...
+
+--- Top 2 documents for Topic 14 ---
+
+[1] (score=0.268)
+Let this be your first lesson in the highly expensive hobby of HiFi:   cramming more gear in the signal path isn't going to objectively improve the audio quality.  Subjectively?  Maybe, but at that point you're coloring your music to make up for a lack in overall system quality.  This might sound good to you, and if it does and it makes you happy, hey that's totally cool, enjoy your music, but let...
+
+[2] (score=0.199)
+Can someone who knows their stuff about microphones please lend me a hand into understanding my new Blue Yeti, please?
+
+Basically, I plugged it into one of the USB jacks on my Mobo, and then ran the wire up to my desk where my Yeti is sat. 
+
+Just to preface, I already know that the Yeti provides a constant feedback of yourself so you can hear any problems with your audio; it's synced up extremely ...
+
+--- Top 2 documents for Topic 15 ---
+
+[1] (score=0.173)
+A couple of specialist companies and social enterprises have been setup to target the "bottom of the pyramid" with razor thin margins made up with volume.
+
+Cell phones are used a lot by farmers to schedule deliveries and share information about things like weather. Street traders can organize deliveries or materials much more easily. New social enterprises even allow homeowners to order water over...
+
+[2] (score=0.123)
+oh man i've been through like six phones - i'm the worst with keeping them in one piece.
+
+* my first phone i got when i was 13. i broke it by fiddling around with security settings and somehow frying it.
+* i dropped my second phone running for the bus (e: is this a common thing? :V). the screen shattered. i got it fixed, and less than two weeks later i took it out of my pocket and the screen was g...
+
+--- Top 2 documents for Topic 16 ---
+
+[1] (score=0.440)
+I just graduated high school where, although I was astounding in schoolwork, I wasn't very interested in school based Extra-Curriculars. Tried out a couple clubs in my senior year and I couldn't stand them. The only real clubs I was consistently part of was the soccer team and rock climbing club. 
+
+I'm nervous about being able to find ECs in college that I am both successful at and enjoy. The only...
+
+[2] (score=0.248)
+I'm considering joining the FSAE team at my university this fall. I really want to join the team, as I think it will be a fun/rewarding way to get some hands on experience. 
+
+Part of the reason I'm debating this is that I am also currently deciding between finishing up in 3 more semesters (with a summer) or 4 semesters. As I don't feel quite ready to graduate, I'd rather go with the extra semester...
+
+--- Top 2 documents for Topic 17 ---
+
+[1] (score=0.151)
+Hi Everyone! I'd like to book our honeymoon within the next month but we're both stumped as to where to go.  We want something unique where we can explore the local culture (neither of us are 'sitting by the pool for a week' people) but I also think we're underestimating how much we will want to relax after the wedding.  We're looking to spend up to $4000/person for 1-2 weeks.  So far the ideas we...
+
+[2] (score=0.142)
+Georgia fans, it sucks, I know. I understand we beat a SEC squad on the road with a vast majority of our stars injured. I understand we are the red-headed stepchild when it comes to the SEC love because we're not Alabama.  When we win four championships in three years, then maybe we can legitimately complain about being jumped.  But when FSU gives a beatdown of a ranked (legitimate or not) Marylan...
+
+--- Top 2 documents for Topic 18 ---
+
+[1] (score=0.361)
+[Multiverse]( wikpedia article in case anyone isn't semi-familiar with the concept...
+
+So if we accept that there are an infinite amount of separate universes each having the potential to have their own sets of rules, physics, etc etc.  Certainly there would be universes in which Christianity is the one true religion.  So if you accept that the multiverse is probable then you must also accept that...
+
+[2] (score=0.198)
+I think the confusion arises from most people (atheists included) not being professional philosophers and consequently in casual conversation they may make statements that, if pressed, they would admit aren't completely solid in epistemological terms. For example, I admit that it is impossible to prove that god(s) do not exist. How could I? Even if I invented a computer that would calculate every ...
+
+--- Top 2 documents for Topic 19 ---
+
+[1] (score=0.221)
+So I'll tell you my woes and problems, but basically I would like to get a good thread of what really works and helps constipation. I know I'm not the only one with this issue! :( 
+
+
+
+I'm female, mid 20s, ~100 lbs, lean and fit. I eat very well, no processed foods or sugar, lots of proteins and fats and veggies, drink at least 2 liters of water a day, work out 5 days a week, eat paleo about 95% of...
+
+[2] (score=0.201)
+I went to this place. It's pretty fun, but it really can be damaging to your health. I'm pretty healthy and I could kinda feel the lull after eating there. They have a large digital scale outside and inside to weigh yourself. The company policy is to offer free food to those over 350 lbs. You also have to wear hospital gowns before and during dining and your stay. If you don't finish your food the...
+
+--- Top 2 documents for Topic 20 ---
+
+[1] (score=0.658)
+is always interesting. On a Friday or a Saturday there are a good variety of people represented. Weekend warriors, tourists, college kids, alcoholics, etc. It feels accepting, like shit I'm here just like any other day only thing is I could be anyone right now. Then there are the times at 10:30 AM on a Monday when you're buying a bottle and the guy behind you has a 40oz with clothes that obviously...
+
+[2] (score=0.254)
+Have a night, **NOT** Valentine's day.  Put together some special package or meal or plans that are all about him.  Not parenthood, not anything but stuff for him.  Yeah, he's being a putz, but you know what, it's a scary thought.  You go from having a life all yourself and you two as a pair to a life of "fuck, every little thing, I have to do to keep this drooling shit-machine alive". 
+
+It's a ga...
+
+--- Top 2 documents for Topic 21 ---
+
+[1] (score=0.257)
+To the people saying that "the audience must be paid off" or "there's no way a real audience can laugh that hard at the jokes in BBT", it's quite a simple explanation. 
+
+Laughing is amongst other things a social interaction that shows people around you that you find something humorous. Even though you might not laugh at jokes, shows and comics in front of your computer and TV-screen, you probably ...
+
+[2] (score=0.106)
+He has said some pretty racist shit though. At least, he did leading up to the second Silva fight. He's made a ton of remarks where he basically feigns shock that Brazil has any sort of technology. And he made these jokes continuously leading up to the fight. Often when he is asked about the backlash or about whether he thinks his comments were offensive, he'd reply back with another comment that ...
+
+--- Top 2 documents for Topic 22 ---
+
+[1] (score=0.080)
+Exactly, I'm all for letting people live their lives however they want to as long as it doesn't impact negatively on anyone else but that guy's appearance just winds me up. 
+You can tell he's the type of person who when he's on public transport he pretends to read or look out of the window all the while being aware of the looks he's getting or seeing people whispering and getting off on it mentall...
+
+[2] (score=0.067)
+Meet someone climbing in Red Rock and follow them up the line, meticulously noting mentally what brand, size, and multiples of gear that you pull from the cracks and lash onto your harness or gear sling over a season of being a loyal second.
+
+Or, just look at what's dangling from folks' harnesses at the crag and engage in an in-person conversation with multiple people about which gear works well a...
+
+--- Top 2 documents for Topic 23 ---
+
+[1] (score=0.226)
+You missed:
+
+1. Money is not the only factor being optimized for - time is as well.
+
+2. For a winner there is just the one auction you envision here, but for the losers there is the next, and the next, until they finally succeed in buying the thing they came to the site for.
+
+Suppose I want to score a $600 smartphone for a maximum of $200.  Often others are going to see a current price of $10, and...
+
+[2] (score=0.151)
+No.  This doesn't work, unless you understand that you are not going to see the retail value that you paid again.  A private shop will 100% take even trades, however, you're going to get the wholesale price for your piece as a valuation and be paying retail prices for the stone that you're trading for.
+
+For example, say you've paid 18k retail as the op did for a 2.1 karat stone in setting.  At a p...
+
+--- Top 2 documents for Topic 24 ---
+
+[1] (score=0.179)
+I used to ride , here's the story that made me quit.
+
+I was crossing a two lane one way bridge with road construction on it crossing a pretty huge lake.  Traffic was pretty tight so there wasn't much moving room, and we were going 60 mph.  The left lane closes soon, so I open up some room in front of me to let a car in.  The next car behind him, a black escalade, decides he always wants to come ov...
+
+[2] (score=0.104)
+Yup. I belelieve the new log-posts also confirm New World is different than the Grand Line, in that it is a straight line with a certain destination (Raftel) at it's end. So re-visiting FI wouldnt mean that they'd have to go all the way back'  Most other strong pirates have been seen effortlessly traveling between NW and Grand Line (Shanks, Whitebeard for the War f.e) so at point point the Strawha...
+
+--- Top 2 documents for Topic 25 ---
+
+[1] (score=0.347)
+That's a subset referred to as *military* keynesianism, Keynes advocated that government spending be used "in the interests of peace and prosperity" instead of "war and destruction".  Here's context:
+
+&gt; Thus as the prime mover in the first stage of the technique of recovery I lay overwhelming emphasis on the increase of national purchasing power resulting from governmental expenditure which is ...
+
+[2] (score=0.090)
+Did you read the article? There was nothing against FEMA's rules providing aid to non-profits. 
+
+*  Private nonprofits, however, are ineligible, **unless** they provide critical services such as fire and emergency, electricity, water, phone, sewer and wastewater treatment, and direct medical care.
+
+* Private nonprofits that **deliver essential, "government" services to the general public may also ...
+
+--- Top 2 documents for Topic 26 ---
+
+[1] (score=0.325)
+Let me star by saying that I’m not a young fid at sci-fi and fantasy world, I have read most of the classics and I consider myself to be a hard to impress guy where books are concerned, that being said:
+
+WOW!
+
+Anathem blew my mind!
+
+Let me start talking about the structure and, as the title explicitly tells you, there will be massive spoilers ahead. Structure-wise this wonderful book builds up a m...
+
+[2] (score=0.324)
+I'd like to write a book, but am stuck on how I write in first person. My character is fairly stupid, as in he isn't *that* good at school, but do I make this evident in how my book is written? I know that in first person thoughts and descriptions of surrounding events are interconnected.
+
+How I'd write a paragraph:
+
+"As soon as I fell, the first thing I noticed was the sky that was above me. I la...
+
+--- Top 2 documents for Topic 27 ---
+
+[1] (score=0.252)
+I've thought about this for a while, but only decided to post when someone else brought up how weak they may be.
+
+Everyone assumes that the animatronics can walk at a leisurely speed. And that Foxy can run quite fast. However, this is proven false. Because the time spent playing does not equal the amount of time the guard has been at Freddy Fazbears Pizzeria.
+
+I'm quite sure that an ingame hour la...
+
+[2] (score=0.084)
+Was playing a good 4 hour session on hard point and then I happen to run into this teammate who was complaining. 
+
+Now this is typical, peeps complain about a lot of stupid stuff in game chat so I just laugh at him. However, this one was special. We were winning at the time 72 - 221 with 4 minutes left and all the sudden he starts complaining about probably the most retarded thing I've ever heard....
+
+--- Top 2 documents for Topic 28 ---
+
+[1] (score=0.339)
+Anyone who talks about laying their bike down is an eejit, especially when it comes to modern bikes. There's this sort of long-standing belief amongst older riders that if you're in a position where you're gonna hit something - car, wall, other bike, person - you should drop the bike because that'll stop it quicker and thus make the accident less dangerous. Back when everyone had drum brakes, that...
+
+[2] (score=0.302)
+Look, I'm not as cool as all of you.  I have a mountain bike.  Most of the riding I do, however, is on roads with some light dirt riding as my ride encounters.  Since it is a mountain bike, it  came with big knobbly tires, however it has come to my attention that I could probably do much better with my riding style with some more road-friendly tires.  Basically, it comes down to this:
+
+I have [thi...
+
+--- Top 2 documents for Topic 29 ---
+
+[1] (score=0.325)
+ugh... its magic. disregard what science is applicable in our world, its pure freakin magic.
+ air is all about controlling air currents, while fire is mostly just shooting or making fire *directly* without use of air, besides as fuel if you need to go that technically far. 
+i suppose an extremely good air bender could make fire in some way, but firebending is directly making fire, not proxy any ot...
+
+[2] (score=0.135)
+"The Wall's not just ice and stone. Ancient spells were carved into its foundations. Strong magic, to protect men from what lies beyond. And while it stands, the dead cannot pass, I cannot pass."
+
+Remember the [theory]( that Bran will bring down the wall because he has the Night King's mark. What if Uncle Benjen / Cold Hands wants this to happen?
+
+He was kept alive by the Children of the Forest in...
+
+--- Top 2 documents for Topic 30 ---
+
+[1] (score=0.273)
+FYI: 
+
+*What is this you may ask?* An anti-gun subreddit was created and a mod there is taking pictures of people's gun collections here and posting them there and saying "If this redditor snaps..." implying that everyone on r/guns (and everyone that owns a gun, whether trained or otherwise) are all just crazy redneck gun nuts who would just go on a killing spree on a whim.
+
+Just wanted to let you...
+
+[2] (score=0.249)
+The legality of carrying a weapon (*any* weapon) in California is: it's not, don't even bother.
+
+To be specific:
+
+PENAL CODE   
+SECTION 21310-21390 
+
+21310\.  Except as provided in Chapter 1 (commencing with Section
+17700) of Division 2 of Title 2, any person in this state who carries
+concealed upon the person any dirk or dagger is punishable by
+imprisonment in a county jail not exceeding one year...
+
+--- Top 2 documents for Topic 31 ---
+
+[1] (score=0.339)
+The examples you listed are a special type of security that hold American Depository Receipts, or ADR.  They are called American Depository Securities, or ADS.  They are very different than common stock of a domestic corporation exchanged via the pink sheets.
+
+These ADS aren't businesses in the sense that you're buying domestic shares of common stock in an enterprise, but rather a sort of, you cou...
+
+[2] (score=0.273)
+I live in Somerville MA (about a mile outside Boston)
+
+Looking to try a business selling specialty food products. I've posted about this a while ago but I'm now able to spend the money. I have two products right now (see end for long descriptions).
+
+My idea is to make a test batch of each product, and get some of my friends and family together, have food &amp; drinks and obviously feature my produ...
+
+--- Top 2 documents for Topic 32 ---
+
+[1] (score=0.447)
+I think the greatest aspect of the Walk, especially here in San Francisco, is pointing out to people that, no matter what the media and politicians say is the 'proper' viewpoint, there are thousands and thousands of other people who feel the same way the marchers do. This reinvigorates those who march to see that a) they're not alone b) it's not as skewed as local media reports and c) it's a view ...
+
+[2] (score=0.087)
+A lot of the theories here are slightly off.  Here is what Jearl Walker, author of The Flying Circus of Physics, has to say (p. 144-145):
+
+&gt;When the *volume flow rate* (the amount of fluid flowing past a given point per second) is low, the gravitational force on the water tends to bring the water directly down the tilted plane.  The surface tension (due to mutual attraction of the water molecul...
+
+--- Top 2 documents for Topic 33 ---
+
+[1] (score=0.510)
+Hi everybody, right now I am in the middle of shooting a film and am in dire need of a new space to operate in.  The project is a sarcastic Space Fantasy and it's shot 100% on greenscreen.  I live in a large city (Chicago) and up until this point I have been travelling 40 minutes to Indiana to shoot in a small makeshift studio space in a music recording studio.  It gets the job done...but it's tin...
+
+[2] (score=0.087)
+I play paintball and wear padded spandex shorts under my pants to protect my upper legs and crotch from being shot. Naturally after 8 hours of running around the area between the balls and the inner thigh gets quite chafed and red. I got home and had an idea: I read somewhere that isopropyl alcohol "burns" exposed nerve endings and relieve the chafing. So I splashed it on my hand and rubbed my bal...
+
+--- Top 2 documents for Topic 34 ---
+
+[1] (score=0.358)
+Hello, let me first say that I am new here and not technically an engineering student. I am an Information Science (Essentially Information Systems) major going into my senior year. I am currently working as a Systems Engineer through the end of the year as an internship.
+
+I am having second thoughts regarding my educational path, and I am hoping to get some input. I started school as a CS major, ...
+
+[2] (score=0.252)
+I'm a PhD student in mechanical engineering for context. It starts out very general, you spend a year or two really just catching up on literature since, you know, your advisor has been along for the ride for about 30 years so comparatively you're an academic infant. So you read a paper which answers questions, but also creates more questions for you.  But that's ok and is par for the course, so y...
+
+--- Top 2 documents for Topic 35 ---
+
+[1] (score=0.539)
+I'm shocked by how many people think they have to go in an ambulance because one showed up (or the firefighters say they have to). In reality, there are only four conditions under which you cannot refuse treatment or transport (in America).
+
+1) You are mentally not competent to refuse or determine care. (you are not oriented to who you are, where you are, when it is, and what's happening)
+
+2) You ...
+
+[2] (score=0.208)
+I have treated patients with opioid-induced hyperalgesia and there are few other things in medicine that seem to cause so much suffering.  The worst case I ever saw was a man in his early 40s who had been started on opioids about 20 years prior following failed back surgery for a compression fracture (secondary to a construction accident, if I recall correctly).  He was started on chronic opioid t...
+
+--- Top 2 documents for Topic 36 ---
+
+[1] (score=0.533)
+You said they could take all of Google's market share and not be worth 100 billion?  That's stupid by an valuation, as evidenced by the fact that Google is valued above 100 billion (and yes 95% of their money comes from advertising) and few people feel Google is drastically over valued).
+
+More generally, Facebook only started trying to make money a few years ago (remember, no ads for the longest t...
+
+[2] (score=0.416)
+Well, that's a big question. Here's my short take:
+
+Amazon's a big place. There are many, many teams, and they're all different, culturally. Working for the team that makes flash games on Facebook is not at all going to be the same job as working on a team that maintains a legacy tool that is needed by the ordering system for the amazon.com retail website. It really, REALLY matters what team you'r...
+
+--- Top 2 documents for Topic 37 ---
+
+[1] (score=0.437)
+I was in San Diego visiting a friend.  We had gone down town to Tivoli Bar &amp; Grill for a few cocktails and were on our way back towards his place when a commotion caught my attention about 15-20 yards ahead of me.
+
+I saw two young ladies leaving a bar in a hurried fashion and a male following behind.  The ladies were trying to get into a cab and as the male came up behind he tackled one of the...
+
+[2] (score=0.282)
+When I went through BCT was divided into phases:  Red, White, and Blue.  Red phase was the first two or three weeks, and basically signified getting smoked all of the time, having about thirty seconds to eat your meals, etc.  It DOES get better as you go along; by the end we were pretty much on our own, and rarely got smoked.  I personally got through without being singled out for a smoking, meani...
+
+--- Top 2 documents for Topic 38 ---
+
+[1] (score=0.342)
+In August of 2012 my roommate/best friend started dating this girl that he met on POF.  After four months of dating, they announced that they were pregnant.  The kid was definitely an accident, but they both had a positive attitude (my friend had been wanting to settle down for a while).  To me, he looked happy/excited, so I was as well.
+
+They then bought a house together and she had the kid.  Fro...
+
+[2] (score=0.332)
+I recently got engaged to my wonderful fiance who I have been seeing for over 4 years.  I could not be happier and cannot wait to be his wife!  However I find my self in a dilemma involving my younger sister who will be my maid of honor. A little background on my sister she is extremely outspoken and tends to always get her way.  She can be a little scary when she is angry so my family and I try t...
+
+--- Top 2 documents for Topic 39 ---
+
+[1] (score=0.600)
+I have an EDH deck built around [[Living End]]. Like the modern deck, it's mostly cyclers and it has literally only one thing with a CMC of 2 or less (Living End), so whenever you cascade with [[Violent Outburst]] or [[Demonic Dread]], you always cascade into a free-to-cast Living End.
+
+Anyway, the most recent game of playing with this went beautifully. Turn 5, I cast [[Necrologia]] with X=25, dis...
+
+[2] (score=0.369)
+Normally I'd post a deck list, but this is still in the concept phase.
+
+I know Slivers are generally hated in EDH for their linear and boring playstyle- either everyone kills your stuff and you have no fun, or you steam roll the table and they have no fun.
+
+I've also looked around at Zedruu decks and have tried building one myself, and I was not thrilled with it. Donating Delusions of Grandeur doe...
+
+--- Top 2 documents for Topic 40 ---
+
+[1] (score=0.578)
+The number of people that had enrolled in the morning of the first day of the roll out was 6. Let's say that was noon.  They have until March 31st, 2014, or 180 days, or 360 half-days. At that rate we would have 2160, or 0.0045% of the uninsured population. 
+
+If we go by the 248 on the first day number, an realize this is only for the 36 states that use healthcare.gov (so let's estimate that  ~72%...
+
+[2] (score=0.327)
+&gt; Again, there were no more people working in 2012 than before the $7/day
+
+They were created in 1997. Also, since you're pulling numbers out of your ass, I went ahead and looked at [this website]( I made [this graph]( You clearly see an increase in total number of workers, starting in 1998 for women. The difference between the total amount of women employed in 2011 is 250,000 higher than the tr...
+
+--- Top 2 documents for Topic 41 ---
+
+[1] (score=0.728)
+You can buy 70C (less than 5 minutes to charge) LiPoly batteries right now.  They are expensive, around $100 for 5Ah 2S and if you were going to charge the whole bank of a car at that speed you would be looking at a crapton of electricity; the battery above would require 5Ax70 = 350A at whatever voltage is needed.  I do not know the specifics of the tesla batteries but i'm guessing that they use a...
+
+[2] (score=0.528)
+Basically I'm looking for a solar/battery power source for when I'm camping (something that I can use to recharge a Kindle if need be, run a few LED light-strips on, etc).
+I found one that has a micro-USB output (can also be charged via USB), and an internal battery that is described simply as "800mA". I figure that's a decent enough capacity battery for my needs since I know my Kindle only has so...
+
+--- Top 2 documents for Topic 42 ---
+
+[1] (score=0.362)
+Ok, a few more questions that would help troubleshoot.
+
+1. Has the service EVER worked at the advertised speeds? In other words, is this a new development?
+
+2. Have you ever used any other similar service and gotten better speeds?
+
+I ask because it appears Centruylink is a DSL provider.  As with any network, it's reliant on the cables it utilizes.  Old houses= old cables.  And new houses often= ch...
+
+[2] (score=0.318)
+Hi, 
+
+So I'm really hoping someone can help me with my home network, I'm a 17yo student so please bare with me! I think perhaps I should post on /r/HomeNetworking but I think this may perhaps be more appropriate here. My networking knowledge includes VLANs and subnetting, but that's pretty much it. I'm only just starting to understand the basics of IPv6. At the moment I want to run my network in d...
+
+--- Top 2 documents for Topic 43 ---
+
+[1] (score=0.753)
+I'm not being an ass.  I'm exercising my constitutional right in the only way I can.  I'm behaving as a law-abiding citizen.  You don't know jack shit about the laws here while I study a bound copy of my state legislature, in addition to excerpts from the municipal police officer's training commission.  Furthermore, I have contacted the ATF, the state police, the attorney general's office and the ...
+
+[2] (score=0.351)
+&gt;The constitution commits the country to enshrine the European convention on human rights in law, tackle climate change and ensure the safe, "expeditious" removal of Trident nuclear weapons.
+
+* Take on European laws, written by an unelected committee from a political union that hasn't had its accounts signed off in 19 years.
+
+* Introduce a stealth tax based on a ponzi trading scheme of carbon c...
+
+--- Top 2 documents for Topic 44 ---
+
+[1] (score=0.739)
+How significant is your taper? 
+
+Mine is 12" chest-waist drop and it's pretty brutal but here's what I've found.
+
+The mossimo [t's]( and [v's]( from target are very comfortable, frugal, and have a good athletic fit. Though, if you have a severe taper like mine, they will still be fairly tight across the chest. They are also fairly long in the torso.
+
+Oh and don't buy them online. The quality contr...
+
+[2] (score=0.535)
+After reading /u/wayward_sun 's [post yesterday]( I decided to stop by Aerie today and laugh to myself while I tried on some teeny tiny bralettes. As someone who has to order all her bras from Poland, I did not have very high expectations. I grabbed 3 different gorgeous looking bralettes from the rack, all size XL (the largest size they have in the store) and headed to the fitting room. 
+
+You can ...
+
+--- Top 2 documents for Topic 45 ---
+
+[1] (score=0.587)
+I have a lot of issues with the iOS store and I was wondering about your opinions on the following and if you have any solutions. 
+
+The iOS store environment is not set up to be user friendly. There are a lot of privileges given to app developers that can result in uninformed purchases. 
+
+I've seen loads of apps I felt required user moderation but I cannot find any way to give feedback on individu...
+
+[2] (score=0.532)
+Hey there guys, it's been a long time since [my last post](
+
+In the meantime I have been developing Hearthpedia for Android on my free time, I managed to finish the 1.0 version to release on Google Play this past week, here's a [sneak peak]( and ~~[here's the actual Hearthpedia 1.0 apk]( here's an update to [Hearthpedia 1.0.1 apk](
+
+Now for the bad news, unfortunately the Google Play support/revie...
+
+--- Top 2 documents for Topic 46 ---
+
+[1] (score=0.460)
+I usually had weird and average dreams or none growing up. I saw people I knew, doing normal but out of place things, and at the weirdest they were in the wrong place. Overall, nothing remarkable.
+
+**However,** that wasn't the case last night. After waking up and going back to sleep, I proceeded to find myself on the senate/house floor. Someone was at the front making an argument for a new policy ...
+
+[2] (score=0.421)
+ My house was built in 2002 and we're the first owners, so it was strange when these occurrences started happening.
+  
+I was about 11 and I was sleeping in the living room. (as most children that I know didn't like sleeping in their rooms.) I had woken up,'round 3:30, from the smaller couch, across the room and parallel to the larger sofa. I saw that the larger sofa was having its own mini-earthqu...
+
+--- Top 2 documents for Topic 47 ---
+
+[1] (score=0.718)
+Hey r/beerit! I'm 22 and still a newb when it comes to beer, but I've been tasting around the different styles, so I'm turning to you guys for some advice. I'm thinking of asking for a personalized beer glass or glasses (probably just my name or something) from my parents for my christmas gift, and I'm not sure which one(s) would be the best choice. My favorite styles of beer thus far are probably...
+
+[2] (score=0.385)
+There are so, so many ways to explore the "outdoor adventure" style- techwear, heritage clothing, the list goes on- but this is not stylish. 
+
+If the adventure style is what you're going for, [valet did a really good post today about how to wear fleeces in a not frat-douche way]( Also, check out anything from [patagonia,]( [penfield,]( [sierra designs heritage]( for inspiration. 
+
+One of the impor...
+
+--- Top 2 documents for Topic 48 ---
+
+[1] (score=0.910)
+Sounds awesome. I just recently moved into a small 3 room house in the countryside after living in downtown metropolis for 23 years.
+
+Despite being a social person, the seclusion and low budget lifestyle has been truly theraputic for both my body and mind.
+
+I have been able to focus on myself and the things that make me happy. My stress levels have all but vanished. The only downside in this inter...
+
+[2] (score=0.304)
+Let me clarify. Every moment from age 15 when I gave my life to Jesus, to now (age 22), I have been a Christian. Sure, there have been moments of ignoring the Christian faith and living a "worldly" life, but my last 3 years in college have been completely devoted to campus ministry, and discipling others. It has been a positive experience, for the most part. I have met many friends, and I have a w...
+
+--- Top 2 documents for Topic 49 ---
+
+[1] (score=0.907)
+Not really a matter of feeling sorry or handing out sympathy, just an examination of what happened.  Something obviously put them in the mindset that they would be ok, but we see that mindset all over the place with dangerous things.
+
+We drive a ton of metal around at high speeds and a lot of us seem to think it's a joke to have road rage or that it's ok to slam on brakes to make a point.  
+
+Every...
+
+[2] (score=0.235)
+Hello, thanks for reading.
+
+Over the last weekend I was involved in a very dangerous accident, that left me mostly unconscious for a couple days and dealing with a bad concussion ever since. I'm also on  very heavy pain killers and anti-biotics, I would say my mental state is pretty much a mess right now. 
+
+I used to be a lucky one, lucid dreaming came extremely easily to me and with just an occas...
+
+
+--- Most story-like topics ---
+Topic 37 | skew=0.9024 | went, smoking, took, out, hit, swing, came, bar, caught, buddy
+Topic 13 | skew=0.8342 | dog, dogs, away, cats, park, animal, mother, walked, owner, little
+Topic 45 | skew=0.8242 | app, apps, android, users, update, developers, issues, tried, user, google
+Topic 46 | skew=0.8209 | had, didn, happened, wasn, weird, did, normal, saw, myself, bad
+Topic 9 | skew=0.8092 | did, were, band, music, had, show, took, performed, their, them
+
+--- Least story-like topics ---
+Topic 5 | skew=0.1556 | movies, bad, movie, terrible, angry, evil, seemed, problems, acting, worse
+Topic 17 | skew=0.1799 | we, our, us, places, dating, trip, poor, wedding, win, because
+Topic 47 | skew=0.1926 | style, beer, your, favorite, good, advice, hey, love, suggest, kind
+Topic 36 | skew=0.1962 | google, amazon, facebook, billion, worth, profit, teams, team, 100, internet
+Topic 32 | skew=0.2015 | movement, people, march, think, see, about, more, san, media, walk
+Saved: /work/RekaForgo#8658/assignment4/out/topic_similarity_lexical_n50.png
+Saved: /work/RekaForgo#8658/assignment4/out/topic_similarity_semantic_n50.png
+Highest semantic similarity: T20 <-> T47 = 0.837
+Saved: /work/RekaForgo#8658/assignment4/out/skew_ranked_n50.png
+Saved: /work/RekaForgo#8658/assignment4/out/topic_by_label_n50.png
+Saved: /work/RekaForgo#8658/assignment4/out/topic_space_n50.png (used PCA)
+
+--- Classification report (topic dists -> story/no-story) ---
+              precision    recall  f1-score   support
+
+           0       0.60      0.86      0.71        42
+           1       0.70      0.37      0.48        38
+
+    accuracy                           0.62        80
+   macro avg       0.65      0.61      0.59        80
+weighted avg       0.65      0.62      0.60        80
+

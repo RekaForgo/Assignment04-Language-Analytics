@@ -1,0 +1,13 @@
+pandas
+matplotlib
+seaborn
+joblib
+scikit-learn
+numpy
+requests
+nltk>=3.8.1
+tqdm>=4.66.0
+ipywidgets 
+spacy
+datasets
+turftopic

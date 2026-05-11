@@ -1,0 +1,184 @@
+=== Run config ===
+n_topics=10 | encoder=paraphrase-MiniLM-L3-v2 | top_n=15
+min_df=5 | max_df=0.5 | seed=42
+classify=True | downsample=False
+Log saved to: /work/RekaForgo#8658/assignment4/out/run_n10.log
+
+Removed 1 duplicate documents (400 remaining)
+Label distribution:
+gold_consensus
+0    207
+1    193
+Name: count, dtype: int64
+
+No device provided, using cpu
+Loading SentenceTransformer model from sentence-transformers/paraphrase-MiniLM-L3-v2.
+
+--- Topics (top words) ---
+Topic 0: game, games, play, playing, players, player, played, pc, making, world
+Topic 1: he, his, him, guy, person, who, someone, himself, think, people
+Topic 2: job, work, company, companies, pay, jobs, make, manager, working, apartment
+Topic 3: episode, episodes, show, seasons, watch, series, bad, watched, movies, fun
+Topic 4: car, cars, driving, gas, engine, drive, used, charge, moving, back
+Topic 5: had, didn, went, did, happened, night, took, were, out, room
+Topic 6: saying, should, think, said, believe, god, say, would, gods, true
+Topic 7: school, college, career, student, university, degree, education, masters, engineering, senior
+Topic 8: price, sell, phone, buying, buy, store, sold, selling, watch, much
+Topic 9: music, sound, audio, noise, sounds, writing, hear, plug, make, band
+
+--- Top 2 documents for Topic 0 ---
+
+[1] (score=0.412)
+Ok, so I thought of this in response to the kingmaking discussion [here]( but I thought it warranted it's own discussion. What do you guys think of game mechanics that try to hide the score from you?
+
+I'm thinking of games like Small World, Dominion, Agricola, etc. Many, many games seem to have this feature and I find it ruining my experience time and again.
+
+The main problem seems to be that as w...
+
+[2] (score=0.316)
+Build Help/Ready:
+
+**What is your intended use for this build?** 
+Easy enough, I'm a gamer and I'm about to be attending college. It's not so much for college as it is for my personal nerdy pleasure but, I'd like it to be optimal enough to avidly use any simple software or interface on the internet that my university throws at me. I play lots of games from League of Legends to CS:GO and even to si...
+
+--- Top 2 documents for Topic 1 ---
+
+[1] (score=0.598)
+Exactly, I'm all for letting people live their lives however they want to as long as it doesn't impact negatively on anyone else but that guy's appearance just winds me up. 
+You can tell he's the type of person who when he's on public transport he pretends to read or look out of the window all the while being aware of the looks he's getting or seeing people whispering and getting off on it mentall...
+
+[2] (score=0.592)
+My friend is 33. He's a smart guy, stable, holds an excellent job, manages his health and finances well, and for the most part, he's not *completely* gullible or suggestible. He does exhibit a bit of a top-down view of things and he comes from a healthy family, with the unfortunate influence of a wacky mother--constantly ranting about conspiracy and "aliens on the moon"--most of which he's learned...
+
+--- Top 2 documents for Topic 2 ---
+
+[1] (score=0.415)
+So, I'll be graduating with a BS in ME next month and have a job lined up at a company where I interned last summer.  I accepted the offer because I want to have work guaranteed after I'm finished with school, but its a job that I really, REALLY don't want.  The more I think about it the less I want to work there.  I plan on looking for work elsewhere in the very near future, but am in a bit of a ...
+
+[2] (score=0.411)
+Hello Reddit. 
+
+I am a college senior and will be graduating in August. It is time for me to enter the job search which in of itself is a scary proposition but I digress. The university I attend (Penn State) has offered numerous career fairs and such for people in my major (Information Systems and Technologies) to try and land a job. Ideally I want to work in the field of IT Consulting but at this...
+
+--- Top 2 documents for Topic 3 ---
+
+[1] (score=0.672)
+I can't describe breaking bad to someone who hasn't watched it. It is so amazing and brilliant in every way and I imagine most people on this subreddit feel the same. As the seasons went on it just got better and better. Now it's over I have formulated a plan to lessen the pain of no more brba. I have decided that once a year I will find a weekend or a spare two days, in which I will watch every b...
+
+[2] (score=0.608)
+I can't say I like Smith's era more than Tennant's. Moffat was a writer on the show long before he took over, and wrote some of my favorite episodes like the Girl in the Fireplace. But personally I think he's much better writing one offs like that. His plots are beautifully devised and intricate and have satisfying conclusions, but I think they work better in short bursts, such as individual episo...
+
+--- Top 2 documents for Topic 4 ---
+
+[1] (score=0.517)
+I have spent the last 4 days scouring used car dealerships online, and I am completely overwhelmed. Then it hit me - Why not try asking reddit? I figured it was worth a shot.
+
+
+Right now I drive a Ford Taurus station wagon, circa 2000 with 160,000+ miles. The insides are rusting out, and it is time to move on. Rest in peace, my little (big) car.
+
+New (Used) Car Needs:
+
+* Safety ratings need to be ...
+
+[2] (score=0.504)
+So my usual [manual transmission] car for the past six months has one of those handy [auto-hold electronic brakes](  If you press the brake when or until the car stops moving, it holds you there until you accelerate away again.
+
+This week the car's been in the bodyshop after someone hit it while parked at my flat, and I've got a Fiesta to use instead.  Great, I used to have one, it feels familiar....
+
+--- Top 2 documents for Topic 5 ---
+
+[1] (score=0.428)
+If you haven't done so already, of course.
+
+My girl had tickets to 112 and Blackstreet last night and they put on a great show. It was incredibly turnt up, much more than I'd expect for a relatively slow tempo genre.
+
+112 went first and held their own, basically going through their timeline and doing a few classics that had influenced their music. Dudes also performed some Biggie classics, but of ...
+
+[2] (score=0.376)
+ My house was built in 2002 and we're the first owners, so it was strange when these occurrences started happening.
+  
+I was about 11 and I was sleeping in the living room. (as most children that I know didn't like sleeping in their rooms.) I had woken up,'round 3:30, from the smaller couch, across the room and parallel to the larger sofa. I saw that the larger sofa was having its own mini-earthqu...
+
+--- Top 2 documents for Topic 6 ---
+
+[1] (score=0.516)
+As I assume this was related in part to my comment, I'd like to dissect this argument a little bit.  (And yes, I've gone back and forth with Brian on this before, it ended about as well as this has). 
+
+1.  **Brian is rewording the quote.**  He's saying "No man can be saved" in the celestial kingdom.  This is a strawman.  It's not the argument.  **Brigham said no man could become a God** in the cel...
+
+[2] (score=0.496)
+I think you have a point.  That said, I'm willing to suspend my disbelief because I've had this pointed out to me with movies before: it isn't whether it makes sense to you.  It's whether it makes sense to the character and how they think.
+
+It's a post apocalyptic world where civilization is gone.  There is no order or morality, only survival. There is a saying: "It is better to be at the right ha...
+
+--- Top 2 documents for Topic 7 ---
+
+[1] (score=0.529)
+Hello, let me first say that I am new here and not technically an engineering student. I am an Information Science (Essentially Information Systems) major going into my senior year. I am currently working as a Systems Engineer through the end of the year as an internship.
+
+I am having second thoughts regarding my educational path, and I am hoping to get some input. I started school as a CS major, ...
+
+[2] (score=0.466)
+I just graduated high school where, although I was astounding in schoolwork, I wasn't very interested in school based Extra-Curriculars. Tried out a couple clubs in my senior year and I couldn't stand them. The only real clubs I was consistently part of was the soccer team and rock climbing club. 
+
+I'm nervous about being able to find ECs in college that I am both successful at and enjoy. The only...
+
+--- Top 2 documents for Topic 8 ---
+
+[1] (score=0.508)
+You missed:
+
+1. Money is not the only factor being optimized for - time is as well.
+
+2. For a winner there is just the one auction you envision here, but for the losers there is the next, and the next, until they finally succeed in buying the thing they came to the site for.
+
+Suppose I want to score a $600 smartphone for a maximum of $200.  Often others are going to see a current price of $10, and...
+
+[2] (score=0.419)
+All watches from online retailers.  There is no guarantee that a watch is brand new.  
+
+If you have a jewelry business.  You can buy a watch from a consumer that's near mint condition and sell it to any watch retailer.  It just needs to be a popular model.  So any of you knuckles that want to sell a mint condition watch.  Call up a online retailer.  If it's pristine condition enough.  They'll prob...
+
+--- Top 2 documents for Topic 9 ---
+
+[1] (score=0.653)
+Let this be your first lesson in the highly expensive hobby of HiFi:   cramming more gear in the signal path isn't going to objectively improve the audio quality.  Subjectively?  Maybe, but at that point you're coloring your music to make up for a lack in overall system quality.  This might sound good to you, and if it does and it makes you happy, hey that's totally cool, enjoy your music, but let...
+
+[2] (score=0.450)
+I have spent a lot of time recently studying music theory and composition, although I have no formal training in music, I feel like I can comment on this subject and help out the slightly less musically educated.
+
+Simply put, writing melodies is completely and totally up to you and what you feel "sounds right".  Seriously.
+
+Yes, there are things to know about how tones move (literally nothing more...
+
+
+--- Most story-like topics ---
+Topic 5 | skew=0.7807 | had, didn, went, did, happened, night, took, were, out, room
+Topic 7 | skew=0.6339 | school, college, career, student, university, degree, education, masters, engineering, senior
+Topic 4 | skew=0.5516 | car, cars, driving, gas, engine, drive, used, charge, moving, back
+Topic 8 | skew=0.5388 | price, sell, phone, buying, buy, store, sold, selling, watch, much
+Topic 1 | skew=0.4601 | he, his, him, guy, person, who, someone, himself, think, people
+
+--- Least story-like topics ---
+Topic 6 | skew=0.2685 | saying, should, think, said, believe, god, say, would, gods, true
+Topic 9 | skew=0.3699 | music, sound, audio, noise, sounds, writing, hear, plug, make, band
+Topic 0 | skew=0.3755 | game, games, play, playing, players, player, played, pc, making, world
+Topic 3 | skew=0.4004 | episode, episodes, show, seasons, watch, series, bad, watched, movies, fun
+Topic 2 | skew=0.4311 | job, work, company, companies, pay, jobs, make, manager, working, apartment
+Saved: /work/RekaForgo#8658/assignment4/out/topic_similarity_lexical_n10.png
+Saved: /work/RekaForgo#8658/assignment4/out/topic_similarity_semantic_n10.png
+Highest semantic similarity: T1 <-> T6 = 0.708
+Saved: /work/RekaForgo#8658/assignment4/out/skew_ranked_n10.png
+Saved: /work/RekaForgo#8658/assignment4/out/topic_by_label_n10.png
+Saved: /work/RekaForgo#8658/assignment4/out/topic_space_n10.png (used PCA)
+
+--- Classification report (topic dists -> story/no-story) ---
+              precision    recall  f1-score   support
+
+           0       0.71      0.86      0.77        42
+           1       0.79      0.61      0.69        38
+
+    accuracy                           0.74        80
+   macro avg       0.75      0.73      0.73        80
+weighted avg       0.75      0.74      0.73        80
+
